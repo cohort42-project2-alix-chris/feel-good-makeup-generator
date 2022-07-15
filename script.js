@@ -8,7 +8,7 @@ animaliaApp.init = () => {
 }
 
 // Make an API call to zooaminal api
-animaliaApp.url = "http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl"
+animaliaApp.url = "http://makeup-api.herokuapp.com/api/v1/products.json"
 
 fetch(animaliaApp.url)
         .then(response => {

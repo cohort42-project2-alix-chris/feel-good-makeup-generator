@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make Up</title>
+    <title>Feel Good Makeup Generator</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
     <header>
-        <h1>Animalia</h1>
-        <h2>Learn about wild animals</h2>
+        <h1>Feel Good Makeup Generator</h1>
+        <h2>choose a makeup that is good for you and the environment!</h2>
     </header>
 
     <main>
@@ -26,27 +26,33 @@
 
                 <fieldset>
 
-                    <label for="animal-type">Select the animal type</label>
-                    <select name="animal-type" id="animal-type">
-                        <option value="" disabled selected>Select the animal type</option>
-                        <option value="amphibian">Amphibian</option>
-                        <option value="bird">Bird</option>
-                        <option value="fish">Fish</option>
-                        <option value="mammal">Mammal</option>
-                        <option value="marsupial">Marsupial</option>
-                        <option value="reptile">Reptile</option>
+                    <label for="product-type">Select the product type</label>
+                    <select name="product-type" id="product-type">
+                        <option value="" disabled selected>Select the product type</option>
+                        <option value="blush">Blush</option>
+                        <option value="bronzer">Bronzer</option>
+                        <option value="eyebrow">Eyebrow</option>
+                        <option value="eyeliner">Eyeliner</option>
+                        <option value="eyeshadow">Eyeshadow</option>
+                        <option value="foundation">Foundation</option>
+                        <option value="lipliner">Lipliner</option>
+                        <option value="lipstick">Lipstick</option>
+                        <option value="mascara">Mascara</option>
+                        <option value="nailpolish">Nailpolish</option>
                     </select>
 
-                    <label for="active-time">Select the active time</label>
-                    <select name="active-time" id="active-time">
-                        <option value="" disabled selected>Select the active time</option>
-                        <option value="diurnal">Diurnal</option>
-                        <option value="nocturnal">Nocturnal</option>
+                    <label for="product-tag">Select the product tag</label>
+                    <select name="product-tag" id="product-tag">
+                        <option value="" disabled selected>Select the product tag</option>
+                        <option value="organic">Organic</option>
+                        <option value="cruelty-free">Cruelty free</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="hypoallergenic">Hypoallergenic</option>
                     </select>
 
                 </fieldset>
 
-                <button type="submit">Give me a random animal!</button>
+                <button type="submit">Give me a feel-good product!</button>
 
             </form>
         </section>
@@ -80,7 +86,7 @@
     </main>
 
     <footer>
-        <p>Created at <a href="https://junocollege.com/" target="_blank">Juno College</a> by Alix & Chris / Courtesy of <a href="http://zoo-animal-api.herokuapp.com/" target="_blank">Zoo Animal API</a></p>
+        <p>Created at <a href="https://junocollege.com/" target="_blank">Juno College</a> by Alix & Chris / Courtesy of <a href="https://makeup-api.herokuapp.com/" target="_blank">Makeup API</a></p>
     </footer>
 
     <script src="./script.js"></script>
